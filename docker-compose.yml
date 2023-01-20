@@ -7,7 +7,7 @@ services:
       EULA: "true"
       MOTD: "Gurke heißt euch willkommen!"
       DIFFICULTY: "hard"
-      OPS: "therealgherkhin"
+      OPS: "therealgherkhin,pda_"
       ALLOW_NETHER: "true"
       ANNOUNCE_PLAYER_ACHIEVEMENTS: "true"
       FORCE_GAMEMODE: "true"
