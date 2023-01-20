@@ -19,7 +19,7 @@ services:
       SPAWN_NPCS: "true"
       MODE: "survival"
       SERVER_NAME: "Gurkes Hood"
-      WHITELIST: "pda_,SneaZyReaper,N_delholz"
+      WHITELIST: "pda_,SneaZyReaper,N_delholz,Moerris2001,MisterPaul18,SneaZyGentleman,Asator007240"
     ports:
       - "25565:25565"
     volumes:
