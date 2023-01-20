@@ -18,6 +18,7 @@ services:
       SPAWN_NPCS: "true"
       MODE: "survival"
       SERVER_NAME: "Gurkes Hood"
+      WHITELIST: "pda_"
     ports:
       - "25565:25565"
     volumes:
