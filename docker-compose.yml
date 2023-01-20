@@ -5,9 +5,10 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
+      VERSION: "1.19.2"
       MOTD: "Gurke heißt euch willkommen!"
       DIFFICULTY: "hard"
-      OPS: "therealgherkhin,pda_"
+      OPS: "therealgherkhin"
       ALLOW_NETHER: "true"
       ANNOUNCE_PLAYER_ACHIEVEMENTS: "true"
       FORCE_GAMEMODE: "true"
