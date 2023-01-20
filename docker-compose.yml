@@ -5,6 +5,19 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
+      MOTD: "Gurke heißt euch willkommen!"
+      DIFFICULTY: "hard"
+      OPS: "therealgherkhin"
+      ALLOW_NETHER: "true"
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: "true"
+      FORCE_GAMEMODE: "true"
+      HARDCORE: "false"
+      SNOOPER_ENABLED: "false"
+      SPAWN_ANIMALS: "true"
+      SPAWN_MONSTERS: "true"
+      SPAWN_NPCS: "true"
+      MODE: "survival"
+      SERVER_NAME: "Gurkes Hood"
     ports:
       - "25565:25565"
     volumes:
